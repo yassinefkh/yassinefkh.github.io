@@ -11,6 +11,16 @@ body {
     justify-content: center;
 }
 
+.construction-notice {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.8em;
+    font-style: italic;
+    color: white;
+    opacity: 0.6;
+}
+
 .container {
     flex: 1;
     display: flex;
@@ -163,7 +173,7 @@ nav a:hover {
 
 .notions {
     color: grey;
-    margin-left: 40px; /* Adjust this value to control the spacing of the notions */
+    margin-left: 40px; 
     display: block;
 }
 
@@ -196,13 +206,15 @@ nav a:hover {
 
 .project .description {
     font-size: 1em;
-    color: #cccccc; /* Light gray color */
+    color: #cccccc;
     margin-left: 20px;
 }
 
 .biopro {
     font-size: 1em;
-    color: #94975c; /* Light gray color */
+    color: #94975c; 
     margin-top: 0px;
     margin-left: 20px;
 }
+
+
