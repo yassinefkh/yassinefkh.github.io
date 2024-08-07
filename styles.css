@@ -1,0 +1,208 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Molengo', sans-serif; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: grayscale(100%);
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.divider {
+    height: 1px;
+    width: 50px;
+    background-color: yellow;
+    margin: 20px auto;
+}
+
+.description {
+    font-size: 1.2em;
+}
+
+.highlight {
+    color: yellow;
+}
+
+.description br {
+    margin-bottom: 20px; 
+}
+
+.dot-divider {
+    font-size: 1em;
+    color: yellow;
+    margin: 0px 0;
+}
+
+nav {
+    margin-bottom: 20px; 
+}
+
+.university {
+    font-style: italic;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+
+
+.biography-container {
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.biography-container h1 {
+    font-size: 5em;
+    text-align: left;
+}
+
+.biography-container p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.highlight-purple {
+    color: #720481; 
+}
+
+
+
+
+
+.cv-container {
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.cv-container h1 {
+    font-size: 5em;
+    text-align: left;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.section h2 .dot {
+    color: yellow;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 20px;
+}
+
+.edu-title, .exp-title {
+    font-weight: bold;
+}
+
+.edu-dates, .exp-dates {
+    font-style: italic;
+    float: right;
+    margin-left: 20px; 
+}
+
+
+.details {
+    font-style: italic;
+}
+
+
+.keywords {
+    font-size: 1em;
+}
+
+.notions {
+    color: grey;
+    margin-left: 40px; /* Adjust this value to control the spacing of the notions */
+    display: block;
+}
+
+.obtained{
+    color:rgb(94, 105, 32);
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.projects-container {
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.projects-container h1 {
+    font-size: 5em;
+    text-align: left;
+}
+
+.project {
+    margin-top: 40px;
+}
+
+.project h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.project .description {
+    font-size: 1em;
+    color: #cccccc; /* Light gray color */
+    margin-left: 20px;
+}
+
+.biopro {
+    font-size: 1em;
+    color: #94975c; /* Light gray color */
+    margin-top: 0px;
+    margin-left: 20px;
+}
