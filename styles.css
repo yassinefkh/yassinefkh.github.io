@@ -218,3 +218,14 @@ nav a:hover {
 }
 
 
+
+.asterisk {
+    text-decoration: none;
+    color: inherit;
+}
+
+.asterisk::after {
+    content: "*";
+    color: #555;
+    font-size: 0.8em;
+}
