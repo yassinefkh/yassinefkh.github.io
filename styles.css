@@ -1,14 +1,10 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Molengo', sans-serif; 
+    font-family: 'Molengo', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .construction-notice {
@@ -212,7 +208,7 @@ nav a:hover {
 
 .biopro {
     font-size: 1em;
-    color: #94975c; 
+    color: #92bcaecb; 
     margin-top: 0px;
     margin-left: 20px;
 }
@@ -228,4 +224,45 @@ nav a:hover {
     content: "*";
     color: #555;
     font-size: 0.8em;
+}
+
+.home-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-date {
+    font-size: 0.9em;
+    color: #888;
+    margin-left: 20px;
+    font-style: italic;
+}
+.projects-container h1 {
+    margin-bottom: 10px;
+}
+
+.projects-container .biopro {
+    margin-top: 0;
+}
+
+
+.projects-container h1 {
+    color: #439d7f;
+}
+
+.reference {
+    font-size: 0.9em;
+    color: #888;
+    margin-left: 20px;
+}
+
+.reference a {
+    color: #94975c;
+    text-decoration: none;
+}
+
+.reference a:hover {
+    text-decoration: underline;
 }
